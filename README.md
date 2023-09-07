@@ -18,7 +18,11 @@ Els servidors que connecten el dron amb la Web App estan implementats en Python 
 
 # 3. Vídeos
 
-Més endavant s'afegirà el vídeo explicatiu on es descriuen les idees generals del codi desenvolupat i també dos vídeos on es mostra el moviment dels drons controlats per la Web App en qüestió.
+A continuació es poden trobar els diversos vídeos explicatius, on es descriuen les idees generals del codi desenvolupat, i també es mostra el moviment dels drons controlats per la Web App en qüestió.
+- Vídeo del codi de la Web App (ionic Vue): https://youtu.be/7ZsMCvmhoDg
+- Vídeo del codi dels servidors per a la comunicació (Python): https://youtu.be/Wscy9plUOrw
+- Vídeo on es mostra el funcionament del dron controlat per la Web App (individual):
+- Vídeo on es mostra el funcionament d'un conjunt de drons controlats per la Web App (eixam):
 
 #
 
@@ -42,7 +46,11 @@ The servers that connect the drone to the Web App are implemented in Python and 
 
 # 3. Videos
 
-Later on we will add the explanatory video where the general ideas of the developed code are described and also two videos where the movement of the drones controlled by the Web App is shown.
+Below you can find the different explanatory videos, which describe the general ideas of the developed code, and also show the movement of the drones controlled by the Web App in question.
+- Video of the Web App code (ionic Vue): https://youtu.be/7ZsMCvmhoDg
+- Video of the server code for communication (Python): https://youtu.be/Wscy9plUOrw
+- Video showing the operation of the drone controlled by the Web App (individual):
+- Video showing the operation of a set of drones controlled by the Web App (swarm):
 
 
 
