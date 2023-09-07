@@ -57,14 +57,14 @@
       }, 1000);
 
       function connect () {
-        // if (nameInput.value == undefined || ageInput.value == undefined){
-        //   Alert_blank()
-        // }
-        // else{
-          // console.log('Name:', nameInput.value, 'Age: ', ageInput.value)
+        if (nameInput.value == undefined || ageInput.value == undefined){
+          Alert_blank()
+        }
+        else{
+          console.log('Name:', nameInput.value, 'Age: ', ageInput.value)
           mqttHook.publish('Connect','myAppTello',1)
-          // publish('command')
-        // }
+          publish('command')
+        }
         
       }
       function connectSwarm () {
