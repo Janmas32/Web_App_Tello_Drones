@@ -4,27 +4,6 @@ from djitellopy import Tello, TelloSwarm
 import base64
 import time
 
-
-def move_drones(direction):
-    directions.pop()
-    directions.insert(0, direction)
-    print(directions)
-    for i, tello in zip(directions, swarm):
-        if i == 'left':
-            tello.rotate_counter_clockwise(90)
-        elif i == 'right':
-            tello.rotate_clockwise(90)
-        # tello.move_forward(50)
-
-    swarm.move_forward(50)
-
-
-def move_one_drone(dir, drone_id):
-    for i, tello in enumerate(swarm):
-        if str(i+1) == drone_id:
-            tello.move(dir, 20)
-
-
 def on_message(cli, userdata, message):
     global sending_video
     global client
@@ -87,6 +66,25 @@ def on_message(cli, userdata, message):
     elif message.topic == 'TLeft':
         swarm.send_rc_control(0, 0, 0, 50)
 
+def move_drones(direction):
+    directions.pop()
+    directions.insert(0, direction)
+    print(directions)
+    for i, tello in zip(directions, swarm):
+        if i == 'left':
+            tello.rotate_counter_clockwise(90)
+        elif i == 'right':
+            tello.rotate_clockwise(90)
+        # tello.move_forward(50)
+
+    swarm.move_forward(50)
+
+
+def move_one_drone(dir, drone_id):
+    for i, tello in enumerate(swarm):
+        if str(i+1) == drone_id:
+            tello.move(dir, 20)
+
 
 def dummy_service():
     global client
@@ -132,10 +130,9 @@ if __name__ == '__main__':
     #             '60-60-1f-fd-1b-ca' in w or \
     #             '60-60-1f-5d-bd-4d' in w:
     #         IPs.append(w.split()[0])
+    # print(IPs)
 
     directions = ['forward', 'forward', 'forward']
-    print(IPs)
-
     IPs = ['192.168.0.101', '192.168.0.102', '192.168.0.103']
     swarm = TelloSwarm.fromIps(IPs)
     # initiate the server
