@@ -22,7 +22,7 @@ A continuació es poden trobar els diversos vídeos explicatius, on es descriuen
 - Vídeo del codi de la Web App (ionic Vue): https://youtu.be/7ZsMCvmhoDg
 - Vídeo del codi dels servidors per a la comunicació (Python): https://youtu.be/Wscy9plUOrw
 - Vídeo on es mostra el funcionament del dron controlat per la Web App (individual):
-- Vídeo on es mostra el funcionament d'un conjunt de drons controlats per la Web App (eixam):
+- Vídeo on es mostra el funcionament d'un conjunt de drons controlats per la Web App (eixam): https://youtu.be/KywT-3dozzs
 
 #
 
@@ -50,7 +50,7 @@ Below you can find the different explanatory videos, which describe the general 
 - Video of the Web App code (ionic Vue): https://youtu.be/7ZsMCvmhoDg
 - Video of the server code for communication (Python): https://youtu.be/Wscy9plUOrw
 - Video showing the operation of the drone controlled by the Web App (individual):
-- Video showing the operation of a set of drones controlled by the Web App (swarm):
+- Video showing the operation of a set of drones controlled by the Web App (swarm): https://youtu.be/KywT-3dozzs
 
 
 
